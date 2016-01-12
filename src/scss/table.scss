@@ -1,0 +1,76 @@
+.reactable-page-button, .reactable-previous-page, .reactable-next-page {
+  margin-left: 5px;
+  margin-right: 2px;
+  margin-bottom: 6px;
+  padding: 3px;
+  width: 30px;
+  float: left;
+  cursor: pointer;
+  color: #000;
+  border: 1px solid #AAA;
+  background-color: #EEE;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.reactable-previous-page, .reactable-next-page {
+  width: 60px;
+}
+
+.reactable-page-button:hover {
+  text-decoration: none;
+  color: #333;
+  background-color: #DDD;
+}
+
+.reactable-current-page {
+  background-color: #DDD;
+  cursor: default;
+}
+
+.results th {
+  cursor: pointer;
+}
+
+.results {
+  width: 100%;
+}
+
+.results th.reactable-header-sort-desc, .results th.reactable-header-sort-asc {
+  background-color: #adadad;
+}
+
+.results th.reactable-header-sort-desc:after {
+  content: '\25B2';
+  font-size: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.results th.reactable-header-sort-asc:after {
+  content: '\25BC';
+  font-size: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.reactable-pagination {
+  text-align: center;
+}
+
+tr.reactable-filterer {
+  width: 100%;
+}
+
+tr.reactable-filterer td {
+  width: 100%;
+}
+
+.reactable-filter-input {
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 20px;
+  padding: 5px;
+}
