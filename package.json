@@ -18,7 +18,6 @@
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.3.13",
     "babelify": "^7.2.0",
-    "bower": "~1.6.3",
     "browser-sync": "^2.9.11",
     "browserify": "~11.2.0",
     "conventional-changelog": "^0.5.0",
@@ -49,7 +48,6 @@
     "watchify": "~3.4.0"
   },
   "scripts": {
-    "postinstall": "node ./node_modules/bower/bin/bower install",
     "start": "node ./node_modules/gulp/bin/gulp.js",
     "build": "node ./node_modules/gulp/bin/gulp.js build",
     "test": "node ./node_modules/gulp/bin/gulp.js check"
