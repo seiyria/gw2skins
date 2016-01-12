@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
 .reactable-page-button, .reactable-previous-page, .reactable-next-page {
   margin-left: 5px;
   margin-right: 2px;
@@ -34,10 +36,37 @@
 
 .results {
   width: 100%;
+  background-color: #FFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  font-family: Roboto, sans-serif;
+  border-spacing: 0px;
 }
 
+.results thead tr.reactable-column-header {
+  height:50px;
+}
+
+.results tr td:first-child{
+  text-align: center;
+  padding: 10px;
+}
+
+.results .reactable-data tr {
+  transition: background-color 0.1s linear;
+}
+.results .reactable-data tr:hover {
+  background-color: rgba(0,188,212, 0.5);
+}
+.results th {
+  text-align: left;
+  color:#757575;
+  font-weight: 400 !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+
 .results th.reactable-header-sort-desc, .results th.reactable-header-sort-asc {
-  background-color: #adadad;
+  background-color: #FFF;
 }
 
 .results th.reactable-header-sort-desc:after {
@@ -69,8 +98,8 @@ tr.reactable-filterer td {
 .reactable-filter-input {
   width: 95%;
   margin-left: 10px;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-right: 20px;
   padding: 5px;
 }
