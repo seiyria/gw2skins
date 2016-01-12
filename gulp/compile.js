@@ -3,7 +3,6 @@ const gulp = require('gulp');
 const util = require('gulp-util');
 const concat = require('gulp-concat');
 const minifyCss = require('gulp-minify-css');
-const ngAnnotate = require('gulp-ng-annotate');
 const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
